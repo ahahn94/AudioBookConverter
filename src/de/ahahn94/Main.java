@@ -49,6 +49,8 @@ public class Main {
         System.out.println("The file name and title tag will be the same as the chapters name.\n");
 
         System.out.println("\tm4b files can be used after renaming them to m4a!");
-        System.out.println("\tm4b audiobooks from iTunes will not work because of the embedded DRM.");
+        System.out.println("\tm4b audiobooks from iTunes will not work because of the embedded DRM.\n");
+
+        System.out.println("Make sure FFmpeg and libmp3lame are installed on your system.");
     }
 }
