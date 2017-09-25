@@ -17,4 +17,4 @@ apps:
 parts:
   audiobookconverter:
     plugin: jdk
-      source: src
+    source: src
