@@ -1,8 +1,6 @@
 # Compiled class file
 *.class
 
-out/production
-
 # Log file
 *.log
 
