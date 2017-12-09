@@ -23,3 +23,6 @@ cd AudioBookConverter
 
 ## Remove Instructions
 `./remove.sh`
+
+## Generate Java Documentation
+`./generateDoc.sh`
