@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar /usr/share/AudioBookConverter/AudioBookConverter.jar "$@"
+java -cp /usr/share/AudioBookConverter de.ahahn94.Main "$@"

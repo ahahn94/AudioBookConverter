@@ -11,3 +11,15 @@ M4B audiobook files can only be used after renaming them to M4A.
 M4B audiobooks from iTunes will not work because of the embedded DRM.  
 
 Make sure FFmpeg and the libmp3lame are installed on your system.  
+
+## Installation Instructions
+Just run these commands:  
+```
+git clone https://github.com/ahahn94/AudioBookConverter.git  
+cd AudioBookConverter  
+./build.sh  
+./install.sh  
+```
+
+## Remove Instructions
+`./remove.sh`
