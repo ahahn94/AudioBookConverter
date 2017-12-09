@@ -1,0 +1,27 @@
+name: audiobookconverter
+version: '1.0'
+summary: Split m4a files into mp3 files by embedded chapter marks
+description: |
+  Split m4a files into nicely named and tagged mp3 files by the embedded chapter
+  marks.
+
+grade: stable
+confinement: strict
+
+apps:
+  audiobookconverter:
+    command: java -cp $SNAP/usr/share/audiobookconverter de.ahahn94.Main
+    plugs: [home]
+
+parts:
+  audiobookconverter:
+    source: https://github.com/ahahn94/AudioBookConverter.git
+    plugin: dump
+    build-packages: [openjdk-8-jdk]
+    build: ./build.sh
+    install: |
+      mkdir -p $SNAPCRAFT_PART_INSTALL/usr/share/audiobookconverter
+      cp -r build/* $SNAPCRAFT_PART_INSTALL/usr/share/audiobookconverter/
+    stage-packages: [ffmpeg, lame]
+  java-jre:
+    plugin: jdk
