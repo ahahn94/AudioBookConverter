@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
+Class-Path: de.ahahn94
 Main-Class: de.ahahn94.Main
 

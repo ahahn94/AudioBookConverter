@@ -1,3 +1,3 @@
-sudo cp abc /usr/local/bin
-sudo mkdir /opt/AudioBookConverter
-sudo cp out/artifacts/AudioBookConverter_jar/AudioBookConverter.jar /opt/AudioBookConverter
+sudo cp abc /usr/bin
+sudo mkdir /usr/share/AudioBookConverter
+sudo cp out/artifacts/AudioBookConverter_jar/AudioBookConverter.jar /usr/share/AudioBookConverter
