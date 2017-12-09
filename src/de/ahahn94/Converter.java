@@ -72,7 +72,7 @@ public class Converter {
             String command = "ffmpeg -y -ss ".concat(chapter.getStart())   //fast skip to chapter beginning.
                     .concat(" -i ").concat("\"").concat(audiobook.getInputpath()).concat("\"") //overwrite existing and set input
                     //Codec:
-                    .concat(" -codec:a libmp3lame -vn -b:a 128k")
+                    .concat(" -codec:a libmp3lame -vn -b:a 320k")
                     .concat(" -to ").concat(chapter.getEnd()).concat(" -copyts") //Chapter End Mark, fix timestamps
                     //Set Metadata
                     //Title:
