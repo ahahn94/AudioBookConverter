@@ -7,12 +7,12 @@ categories: Allgemein
 
 ### Installation Instructions
 Just run these commands:  
-{% highlight bash %}
+```shell
 git clone https://github.com/ahahn94/AudioBookConverter.git  
 cd AudioBookConverter  
 ./build.sh  
 ./install.sh  
-{% endhighlight %}
+```
 
 ### Remove Instructions
 `./remove.sh`
