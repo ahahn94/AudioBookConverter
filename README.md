@@ -32,3 +32,12 @@ The file name and title tag will be the same as the chapters name.
 
 M4B audiobook files can only be used after renaming them to M4A.
 M4B audiobooks from iTunes will not work because of the embedded DRM.  
+
+### Syntax  
+`abc foo.m4a` will split foo.m4a into multiple mp3-files and put them into a new directory "foo".  
+AudioBookConverter supports wildcards (`*`), so `abc *.m4a` will do the above for every m4a-file in the working directory.  
+
+## AudioBookConverter in Action
+<iframe id="ytplayer" allowfullscreen="true" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/Ugpe2cKMvh8"
+  frameborder="0"/>
