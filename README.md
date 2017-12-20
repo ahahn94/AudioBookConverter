@@ -37,4 +37,4 @@ M4B audiobooks from iTunes will not work because of the embedded DRM.
 `abc foo.m4a` will split foo.m4a into multiple mp3-files and put them into a new directory "foo".  
 AudioBookConverter supports wildcards (`*`), so `abc *.m4a` will do the above for every m4a-file in the working directory.  
 
-### <a href="https://www.youtube.com/embed/Ugpe2cKMvh8">AudioBookConverter in Action</a>
+### <a href="https://www.youtube.com/watch?v=Ugpe2cKMvh8">AudioBookConverter in Action</a>
