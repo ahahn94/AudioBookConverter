@@ -3,7 +3,7 @@
 ## About
 AudioBookConverter Splits M4A-files into MP3-files by embedded chapter marks.  
 
-## Install
+## Manual Installation on Linux
 ### Dependencies
 #### Build
 - openjdk-8-jdk  
@@ -23,7 +23,17 @@ Just run these commands:
 ### Remove Instructions
 To remove run `./remove.sh`.
 
-### Generate Java Documentation
+## Installation via Snap
+AudioBookConverter is available as a snap package. It is currently in the public beta, so it can only be installed from the "edge"-channel. If you run into any issues using the snap, please report them under "Issues".  
+The snap package includes all necessary dependencies, thus making the installation a lot easier.
+
+### Installation Instructions
+Just run `sudo snap install --edge audiobookconverter`.  
+
+### Remove Instructions
+Just run `sudo snap remove audiobookconverter `
+
+## Generating Java Documentation (for Developement)
 `./generateDoc.sh`  
 
 ## Usage
@@ -35,7 +45,11 @@ M4B audiobook files can only be used after renaming them to M4A.
 M4B audiobooks from iTunes will not work because of the embedded DRM.  
 
 ### Syntax  
+#### After Manual Installation
 `abc foo.m4a` will split foo.m4a into multiple mp3-files and put them into a new directory "foo".  
 AudioBookConverter supports wildcards (`*`), so `abc *.m4a` will do the above for every m4a-file in the working directory.  
+
+#### After Installation Via Snap
+Use `audiobookconverter` instead of `abc`.
 
 ### <a href="https://www.youtube.com/watch?v=Ugpe2cKMvh8">AudioBookConverter in Action</a>
