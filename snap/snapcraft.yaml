@@ -10,7 +10,7 @@ confinement: strict
 
 apps:
   audiobookconverter:
-    command: java -cp $SNAP/usr/share/audiobookconverter de.ahahn94.Main
+    command: env LC_ALL=C.UTF-8 java -cp $SNAP/usr/share/audiobookconverter de.ahahn94.Main
     plugs: [home]
 
 parts:
