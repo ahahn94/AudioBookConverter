@@ -52,4 +52,5 @@ AudioBookConverter supports wildcards (`*`), so `abc *.m4a` will do the above fo
 #### After Installation Via Snap
 Use `audiobookconverter` instead of `abc`.
 
-### <a href="https://www.youtube.com/watch?v=Ugpe2cKMvh8">AudioBookConverter in Action</a>
+### <a href="https://www.youtube.com/watch?v=Ugpe2cKMvh8">AudioBookConverter in Action</a>  
+### <a href="https://www.youtube.com/watch?v=bxj_AKHmrp0">AudioBookConverter Snap in Action</a>  
