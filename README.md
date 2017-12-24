@@ -31,7 +31,7 @@ The snap package includes all necessary dependencies, thus making the installati
 Just run `sudo snap install --edge audiobookconverter`.  
 
 ### Remove Instructions
-Just run `sudo snap remove audiobookconverter `
+Just run `sudo snap remove audiobookconverter `.
 
 ## Generating Java Documentation (for Developement)
 `./generateDoc.sh`  
